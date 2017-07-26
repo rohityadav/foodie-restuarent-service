@@ -16,6 +16,9 @@ public class Restuarent {
     private String name;
     private String type;
 
+    public Restuarent() {
+    }
+
     public Restuarent(String name, String type) {
         this.name = name;
         this.type = type;
